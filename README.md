@@ -18,6 +18,9 @@ With our playlist feature, your films are just a click away, automatically sorte
 
 ![Screenshot (269)](https://user-images.githubusercontent.com/85440501/230754842-540a8294-c61a-4ca2-861a-f45bf2d543eb.png)
 
+### Questionare Page
+With our personalized movie recommendations, you can customize your viewing experience to fit your every mood and schedule. Whether it's a weekday wind-down or a weekend binge, our platform has got you covered with hand-picked recommendations that match your preferences perfectly.
 
+![Screenshot (270)](https://user-images.githubusercontent.com/85440501/230754892-2a5fe91a-5f52-487f-b603-0774dc320d69.png)
 
 
