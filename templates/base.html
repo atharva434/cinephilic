@@ -44,8 +44,6 @@
           display: none;
           position: absolute;
           background-color: #f1f1f1;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           z-index: 1;
         }
         
@@ -58,15 +56,15 @@
 
         .dropdown-content input{
             background-color: #ffffff;
-            color: rgb(0, 0, 0);
+            
             padding: 16px 32px;
             text-decoration: none;
-            margin: 4px 2px;
+            
             cursor: pointer;
         }
         .dropdown-content input:hover{
-            border-radius: 5px;
-            border: black;
+            
+            
         }
         
         .dropdown-content a:hover {background-color: #ddd;}
@@ -114,13 +112,13 @@
                                 <button class="dropbtn">Your mood today</button>
                                 <form action="{% url 'home' %}" method="post">
                                     {% csrf_token %}
-                                <div class="dropdown-content">
-                                    <input type="submit" value="tired" name="mood">
-                                    <input type="submit" value="happy" name="mood">
-                                    <input type="submit" value="sad" name="mood">
-                                    <input type="submit" value="inspiration" name="mood">
-                              </div></li>
-                            </form>
+                                <div class="dropdown-content"><center>
+                                    <input style="display:tablr-crll;width:100%" type="submit" value="Tired" name="mood">
+                                    <input style="display:tablr-crll;width:100%" type="submit" value="Happy" name="mood">
+                                    <input style="display:tablr-crll;width:100%" type="submit" value="Sad" name="mood">
+                                    <input style="display:tablr-crll;width:100%" type="submit" value="Inspiration" name="mood">
+                              </div>/center></form></li>
+</form>
                          {% if not request.user.is_authenticated %}
                          
                             <li>

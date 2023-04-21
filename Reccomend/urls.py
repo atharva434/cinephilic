@@ -6,7 +6,7 @@ urlpatterns = [
     # path("",views.index,name="index"),
     path("",views.recommending_movies,name="home"),
     path("login",views.Login,name="Login"),
-    path("logout",LogoutView.as_view(next_page="login"),name="logout"),
+    path("logout",LogoutView.as_view(next_page="Login"),name="logout"),
     path("signup",views.signup,name="signup"),
     path("search",views.search_movie,name="search"),
     path("playlist/<int:movie_id>",views.save_to_playlist),

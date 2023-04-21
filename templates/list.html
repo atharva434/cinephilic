@@ -18,6 +18,11 @@
     a {
     color: white;
     text-decoration: none;
+
+}
+.thumbnail img{
+  width: 200px;
+  height:300px;
 }
     
     #slider-container {
@@ -152,7 +157,8 @@
     <div class="row">
           
             {% if colab %}
-            <h3 style="color: white;">Best Movies for You!</h3>
+            <center>
+            <h3 style="color: white;">Best Movies for You!</h3></center>
             {% for movie in colab %}
                 <div class="col-sm-2 col-md-2 ">
                     <div class="thumbnail">
@@ -175,7 +181,8 @@
 
                 
                 {% if day %}
-                <h3 style="color: white;">Movies for today!</h3>
+                <center>
+                <h3 style="color: white;">Movies for today!</h3></center>
                 {% for movie in day %}
                     <div class="col-sm-2 col-md-2 ">
                         <div class="thumbnail">
@@ -200,7 +207,8 @@
               <br>
                     
                     {% if mood %}
-                    <h3 style="color: white;">Movies based on your mood!</h3>
+                    <center>
+                    <h3 style="color: white;">Movies based on your mood!</h3></center>
                     {% for movie in mood %}
                         <div class="col-sm-2 col-md-2 ">
                             <div class="thumbnail">

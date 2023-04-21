@@ -52,11 +52,4 @@ html, body {
     height: 155px; /* .push must be the same height as .footer */
 }
 
-/*.row.display-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-.thumbnail {
-  height: 100%;
-}*/
 

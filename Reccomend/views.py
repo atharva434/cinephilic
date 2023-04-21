@@ -50,7 +50,7 @@ def Login(request):
             if user.is_active:
                 login(request, user) #login is the django's default function
                 
-                return render(request,"home.html")
+                return redirect("home")
 
             else: 
                 return HttpResponse("Account not Active")
